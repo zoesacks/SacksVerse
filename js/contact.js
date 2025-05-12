@@ -151,15 +151,5 @@ function initFormAnimations() {
     ease: 'power3.out'
   });
   
-  // Animar botón de envío
-  const submitBtn = document.querySelector('.submit-btn');
-  if (submitBtn) {
-    gsap.from(submitBtn, {
-       y: 30,
-    opacity: 0,
-    duration: 0.8,
-    stagger: 0.2,
-    ease: 'power3.out'
-    });
-  }
+
 }
