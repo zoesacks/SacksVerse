@@ -173,6 +173,17 @@
   width: 100%;
 }
 
+.input-container select {
+  background-color: var(--color-bg-light); /* o var(--color-bg-dark) si tenés esa variable */
+  color: var(--color-text);
+  border: 1px solid var(--color-border); /* opcional, mejora contraste */
+}
+
+.input-container select option {
+  background-color: var(--color-bg-light);
+  color: var(--color-text);
+}
+
 .textarea-container {
   margin-bottom: 1rem;
 }
