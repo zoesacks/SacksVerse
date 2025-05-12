@@ -57,7 +57,7 @@ function initScrollTriggers() {
   
   if (serviceCards.length > 0) {
     gsap.from(serviceCards, {
-      y: 50,
+      y: 0,
       opacity: 0,
       duration: 0.8,
       stagger: 0.2,
@@ -73,7 +73,7 @@ function initScrollTriggers() {
   
   if (projectCards.length > 0) {
     gsap.from(projectCards, {
-      y: 50,
+      y: 0,
       opacity: 0,
       duration: 0.8,
       stagger: 0.2,
@@ -89,7 +89,7 @@ function initScrollTriggers() {
   
   if (teamMembers.length > 0) {
     gsap.from(teamMembers, {
-      y: 50,
+      y: 0,
       opacity: 0,
       duration: 0.8,
       stagger: 0.2,
@@ -105,7 +105,7 @@ function initScrollTriggers() {
   
   if (flipCards.length > 0) {
     gsap.from(flipCards, {
-      y: 50,
+      y: 0,
       opacity: 0,
       duration: 0.8,
       stagger: 0.2,

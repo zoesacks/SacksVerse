@@ -153,25 +153,13 @@ function initFormAnimations() {
   
   // Animar botón de envío
   const submitBtn = document.querySelector('.submit-btn');
-  
   if (submitBtn) {
     gsap.from(submitBtn, {
-      y: 30,
-      opacity: 0,
-      duration: 0.8,
-      delay: 0.6,
-      ease: 'power3.out'
-    });
-  }
-  
-  // Efecto de pulso en el botón
-  if (submitBtn) {
-    gsap.to(submitBtn, {
-      boxShadow: '0 0 20px rgba(0, 200, 255, 0.5)',
-      duration: 1.5,
-      repeat: -1,
-      yoyo: true,
-      ease: 'sine.inOut'
+       y: 30,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.2,
+    ease: 'power3.out'
     });
   }
 }
