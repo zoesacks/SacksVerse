@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce al equipo de desarrollo full-stack con enfoque futurista">
+    <title>Sobre Nosotros | Equipo Dev</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <div class="cursor-follower"></div>
+    <div class="cursor-follower-trail"></div>
+    
+    <header>
+        <div class="logo">
+            <span class="glitch-text" data-text="EQUIPO">EQUIPO</span>
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html" class="active">Sobre Nosotros</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li>
+                    <button class="theme-toggle" aria-label="Cambiar tema">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="about-hero-content">
+                <h1 class="glitch-title" data-text="Sobre Nosotros">Sobre <span class="highlight">Nosotros</span></h1>
+                <p class="subtitle">Un equipo apasionado por crear experiencias digitales innovadoras</p>
+            </div>
+            <div class="about-hero-image">
+                <div class="grid-lines"></div>
+            </div>
+        </section>
+
+        <section class="team-section reveal">
+            <h2 class="section-title">Nuestro <span class="highlight">Equipo</span></h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-container">
+                            <img src="../assets/images/team1.jpg" alt="Desarrollador Frontend" loading="lazy">
+                        </div>
+                    </div>
+                    <h3>Alex Rodríguez</h3>
+                    <p class="member-role">Frontend Developer</p>
+                    <div class="member-skills">
+                        <span>React</span>
+                        <span>Vue</span>
+                        <span>GSAP</span>
+                        <span>Three.js</span>
+                    </div>
+                    <p class="member-bio">Especialista en crear interfaces de usuario inmersivas con animaciones avanzadas y experiencias 3D.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-container">
+                            <img src="../assets/images/team2.jpg" alt="Desarrollador Backend" loading="lazy">
+                        </div>
+                    </div>
+                    <h3>Sofía Martínez</h3>
+                    <p class="member-role">Backend Developer</p>
+                    <div class="member-skills">
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>MongoDB</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <p class="member-bio">Experta en arquitecturas escalables y APIs de alto rendimiento para aplicaciones complejas.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-container">
+                            <img src="../assets/images/team3.jpg" alt="Diseñador UX/UI" loading="lazy">
+                        </div>
+                    </div>
+                    <h3>Carlos Vega</h3>
+                    <p class="member-role">UX/UI Designer</p>
+                    <div class="member-skills">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Blender</span>
+                        <span>Motion Design</span>
+                    </div>
+                    <p class="member-bio">Creativo diseñador con enfoque en experiencias de usuario futuristas y estéticas tecnológicas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-stack-section reveal">
+            <h2 class="section-title">Nuestro <span class="highlight">Stack Tecnológico</span></h2>
+            <div class="tech-cards">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Frontend</h3>
+                            <ul>
+                                <li>React / Next.js</li>
+                                <li>Vue.js / Nuxt</li>
+                                <li>GSAP / Framer Motion</li>
+                                <li>Three.js / WebGL</li>
+                                <li>CSS Avanzado / SASS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                                </svg>
+                            </div>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Backend</h3>
+                            <ul>
+                                <li>Node.js / Express</li>
+                                <li>Python / Django / FastAPI</li>
+                                <li>GraphQL / REST</li>
+                                <li>MongoDB / PostgreSQL</li>
+                                <li>AWS / Firebase</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                    <path d="M2 17l10 5 10-5"></path>
+                                    <path d="M2 12l10 5 10-5"></path>
+                                </svg>
+                            </div>
+                            <h3>DevOps</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>DevOps</h3>
+                            <ul>
+                                <li>Docker / Kubernetes</li>
+                                <li>CI/CD Pipelines</li>
+                                <li>Vercel / Netlify</li>
+                                <li>GitHub Actions</li>
+                                <li>Monitoreo y Análisis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mission-section reveal">
+            <div class="mission-content">
+                <h2 class="section-title">Nuestra <span class="highlight">Misión</span></h2>
+                <p>Creamos experiencias digitales que combinan tecnología de vanguardia con diseño intuitivo. Nuestro objetivo es transformar ideas complejas en soluciones elegantes que impulsen el éxito de nuestros clientes.</p>
+                <p>Nos apasiona la innovación constante y el aprendizaje continuo, manteniéndonos siempre a la vanguardia de las últimas tendencias tecnológicas.</p>
+                <a href="contact.html" class="btn btn-primary">Trabajemos juntos</a>
+            </div>
+            <div class="mission-image parallax-element">
+                <div class="image-container">
+                    <img src="../assets/images/mission.jpg" alt="Nuestra misión" loading="lazy">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="glitch-text" data-text="EQUIPO">EQUIPO</span>
+                <p>Creando el futuro digital</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Sobre Nosotros</a></li>
+                        <li><a href="projects.html">Proyectos</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>info@equipo.dev</li>
+                        <li>+123 456 7890</li>
+                        <li>Ciudad, País</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Social</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 EQUIPO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="../js/cursor.js"></script>
+    <script src="../js/animations.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
